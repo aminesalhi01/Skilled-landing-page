@@ -1,0 +1,195 @@
+    body{
+        background-image: linear-gradient(#ffffff, #f0f0f0);
+        font-family: "plus jakarta sans", sans-serif;
+        font-size: 40px;
+        line-height: 51px;
+        margin:0;
+    }
+    header{
+        font-size: 24px;
+        color: #13383f;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left:195px;
+        padding-right: 195px;
+
+    }
+
+    .btn {
+        background: #13183f;
+        background-image: -webkit-linear-gradient(top, #13183f, #13183f);
+        background-image: -moz-linear-gradient(top, #13183f, #13183f);
+        background-image: -ms-linear-gradient(top, #13183f, #13183f);
+        background-image: -o-linear-gradient(top, #13183f, #13183f);
+        background-image: linear-gradient(to bottom, #13183f, #13183f);
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 20px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        border:none;
+      }
+      
+      .btn:hover {
+        background: #13183f;
+        background-image: -webkit-linear-gradient(top, #13183f, #13183f);
+        background-image: -moz-linear-gradient(top, #13183f, #13183f);
+        background-image: -ms-linear-gradient(top, #13183f, #13183f);
+        background-image: -o-linear-gradient(top, #13183f, #13183f);
+        background-image: linear-gradient(to bottom, #13183f, #13183f);
+        text-decoration: none;
+        background-blend-mode: lighten;
+      }
+
+    .article-details{
+        font-family: "plus jakarta sans";
+        font-size: 30px;
+        line-height: 3.5rem;
+        margin-left: 125px;
+        position: relative;
+        left: 50px;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+        padding: 30px 20px 30px 20px;
+
+    }
+    .details-h1{
+        font-weight: bold;
+        color: #13383f;
+        width: 450px;
+    }
+    .details-p{
+        font-size: 25px;
+        width: 450px;
+        line-height: 2rem;
+        color: #83869a;
+        margin-bottom: 60px;
+    }
+    .details-btn {
+        width: 150px;
+        background: #ff6f48;
+        background-image: -webkit-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: -moz-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: -ms-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: -o-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: linear-gradient(to bottom, #ff6f48, #f02aa6);
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 20px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        border: none;
+        
+      }
+      
+      .details-btn:hover {
+        background: #ff6f48;
+        background-image: -webkit-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: -moz-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: -ms-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: -o-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: linear-gradient(to bottom, #ff6f48, #f02aa6);
+        text-decoration: none;
+        background-blend-mode: lighten;
+      }
+
+      .article-picture{
+        width: 700px;
+        height: 700px;
+        background-image: url(../images/image-hero-desktop.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -60px;
+        right: -170px;
+
+
+
+      }
+
+      .container{
+        margin-top: 100px;
+        width: 100%;
+        display:grid;
+        grid-template-columns: 25% 25% 25%;
+        column-gap: 30px;
+        row-gap: 60px;
+        font-size: 24px;
+        justify-content: center;
+
+      }
+      .container-1{
+        font-family: "plus jakarta sans";
+        font-weight: bold;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-top: 45px;
+        border-radius: 25px;
+        background-image: -webkit-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: -moz-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: -ms-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: -o-linear-gradient(top, #ff6f48, #f02aa6);
+        background-image: linear-gradient(to bottom, #ff6f48, #f02aa6);
+        box-shadow: 0 0 3rem rgba(0,0,0,0.15);
+      }
+
+      .container-box{
+        background-color: #ffffff;
+        font-family: "plus jakarta sans";
+        font-size: 15px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+        box-shadow: 0 0 3rem rgba(0,0,0,0.15);
+      }
+      .div-btn {
+        margin-bottom: 0px;
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 20px;
+        font-family: Arial;
+        color: ff6f48;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+        color: #ff6f48;
+      }
+      
+      .div-btn:hover {
+        background: #ffffff;
+        background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+        background-image: -moz-linear-gradient(top, #ffffff, #ffffff);            
+        background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+        background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+        background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+        text-decoration: none;
+        text-decoration: #f02aa6;
+        background-blend-mode: lighten;
+      }
+      
+      footer{
+        font-size: 24px;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left:195px;
+        padding-right: 195px;
+        background-color: #13183f;
+        margin-top: 70px;
+      }
+    
